@@ -1,10 +1,10 @@
-/* MOVIMIENTO DE CARRUSEL
+/* MOVIMIENTO DE CARRUSEL */
 const myCarousel = document.querySelector('#carouselExampleCaptions');
   const carousel = new bootstrap.Carousel(myCarousel, {
     interval: 1000, // 1000 ms = 1 segundos
     ride: 'carousel'
   });
-*/
+
 /* MOVIMIENTO HEADER JS-QUERY */
 document.addEventListener('DOMContentLoaded', function() {
   particlesJS("particles-js", {
