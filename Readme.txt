@@ -1,9 +1,1 @@
------------ Cosas por mejorar de la pagina -------------
-
-1) No es responsive, tratar de que sea responsive para todo tipo.
-
-2) Mejorar cada una de las secciones que en cada una encontraras un error.
-
-3) Vas a necesitar ayuda para armar o mejorar solo.
-
-4) 
+Esta es una pagina en el cual aun le faltan cosas por mejorar para que sea mas responsive y corregir pequeños errores pero de por si la pagina esta en caminada a ser optimizada para darle un buen desempeño.
