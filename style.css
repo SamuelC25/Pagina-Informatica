@@ -328,6 +328,12 @@ nav input{
     color: rgba(255, 255, 255, 0.8);
 }
 
+/*SOMBRAS EN LOS TEXTO H1 Y P*/
+h1.text-white.font-weight-normal.home-5-title.mb-0, p.text-white-70.mt-4.f-15.mb-0 {
+  text-shadow: 3px 3px 3px black;
+  color: white;
+}
+
 .f-15 {
     font-size: 15px;
 }
@@ -346,6 +352,7 @@ h1.text-center {
   filter: drop-shadow(0px 10px 5px darkgray);
 }
 
+/* SECCION CARRUSEL */
 p.hijo-h1 {
     text-align: center;
     font-size: larger;
@@ -356,20 +363,28 @@ p.hijo-h1 {
     text-shadow: 0px 0px 1px black;
     margin: 5%;
     border-radius: 30px 30px 30px 30px;
-    border: 1px solid white;
+    border: 2px solid white;
     background: white;
     color: black;
     transition: all 0.1s ease;
 }
   
 .hijo-h1:hover {
-  background: linear-gradient(145deg, #3f3da9, #2c76ed, #3f3da9);
+  background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
   color: white;
+  border: 2px solid white;
 }
 
-/* SECCION CARRUSEL */
+button.carousel-control-prev {
+  border-radius: 0px 1000px 1000px 0px;
+}
+
+button.carousel-control-next {
+  border-radius: 1000px 0px 0px 1000px;
+}
+
 button.carousel-control-next, button.carousel-control-prev {
-    background: darkgray;
+    background: #153a71ab;
 }
 
 div.carousel-item, div.carousel-item.active {
@@ -774,12 +789,6 @@ h3.card-title {
   margin-bottom:40px;
 }
 
-.footer_profile ul{
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
-
 .footer_profile ul li{
     display: inline-block;
 }
@@ -792,7 +801,10 @@ h3.card-title {
 }
 
 .footer_profile ul li a img{
-  width:60px;
+    width: 55px;
+    background: white;
+    border-radius: 50px;
+    border: 1px solid white;
 }
 
 .footer_profile ul li a {
@@ -817,4 +829,5 @@ h3.card-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #fff;
+    transform: translate(20px, 0px);
 }
