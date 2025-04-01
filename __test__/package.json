@@ -1,0 +1,24 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "description": "",
+  "main": "componentes.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelC25/Pagina-Inform-tica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SamuelC25/Pagina-Inform-tica/issues"
+  },
+  "homepage": "https://github.com/SamuelC25/Pagina-Inform-tica#readme"
+}
